@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+}
+
+.header .logo {
+    width: 7%   ;
+}
+
+.header > div {
+    align-self: flex-end;
+}
+
+.search {
+    background-color: #EEEEEE;
+    text-align: center;
+    height: 20rem;
+}
+
+.logo-name {
+    font-size: 5rem;
+}
+
+.cities {
+    display:flex;
+    justify-content: space-around;
+}
+
+.city {
+    flex: 1;
+    max-width: 20%;
+    border-radius: 10px;
+    border: 0.1rem black solid;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.city img {
+    width: 100%;
+}
+
+* {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
