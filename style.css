@@ -1,8 +1,9 @@
-body {
+/*For the index.html file*/
+.body-index {
     margin: 0%;
 }
 
-.flex-container {
+.index-flex-container {
     display: flex;
     flex-direction: column;
 }
@@ -26,7 +27,6 @@ body {
 
 .login, .register {
     float: right;
-    border: #bfbcbc solid 1px;
     border-radius: 0.5rem;
     padding: 0.5vw;
     min-width: 4.8rem;
@@ -34,7 +34,7 @@ body {
 }
 
 .login {
-    background-color: #EEEEEE;
+    background-color: white;
     color: black;
     margin: 1.5rem 0rem; 
 }
@@ -62,6 +62,7 @@ body {
     padding: 0.5rem 1rem;
     border: #787A91 solid 1px;
     border-radius: 0.3rem;
+    outline-color: transparent !important;
 }
 
 .logo-name {
@@ -231,7 +232,7 @@ body {
 .instruction1, .instruction2 {
     text-align: center;
     width: 60%;
-    border-radius: 10px;
+    border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -297,6 +298,89 @@ footer {
     color: #EEEEEE;
     text-decoration: none;
 }
+
+/*For the login.html file*/
+
+.body-login-signup {
+    background-color: #0F044C;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-signup-box {
+    background-color: white;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 44px;
+    border-radius: 10px;
+}
+
+.login-signup-flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 440px;
+}
+
+.login-signup-logo a {
+    display: flex;
+    text-decoration: none;
+    width: 223px;
+}
+
+.login-signup-logo > a:link, .login-signup-logo > a:visited {
+    text-decoration: none;
+}
+
+.login-signup-logo img {
+    width: 25px;
+}
+
+.login-signup-logo h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #141E61;
+    font-weight: 800;
+}
+
+.login-signup-flex-container h2 {
+    margin: 0;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.login-signup-input-userId, .login-signup-input-password {
+    background-color: white;
+    height: 20px;
+    border: none;
+    border-bottom: #787A91 solid 1px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    margin: 15px 0px;
+    outline-color: transparent !important;
+}
+
+.login-signup-button-div {
+    display: flex;
+    height: 35px;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.login-signup-button {
+    background-color: #141E61;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+
+
+/*Universal tag*/
 
 * {
     font-family: "Archivo", sans-serif;
