@@ -25,7 +25,7 @@ body {
 }
 
 
-.howitworks, .help, .listplace {
+.account, .help, .listplace {
     float: right;
     border-radius: 0.5rem;
     padding: 0.5vw;
@@ -33,24 +33,49 @@ body {
     text-align: center;
 }
 
-.help, .howitworks, .listplace {
+.help, .listplace {
     color: black;
     margin: 1.5rem 0rem; 
 
 }
 
+.account {
+    color: black;
+    margin: 1.5rem 0rem;
+    margin-right: 1.5rem ;
+    
+}
 
 
+.aboutus-img {
+    background-image: url(./sources/images/monterrey.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    height: 300px;
+    border: 1px solid whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.aboutus-text {
+    text-align: center;
+    padding: 20px;
+}
 
 
 .info {
     text-align: center;
     background-color: #EEEEEE   ;
 }
-.aboutus-text {
+.aboutus-p{
     background-color: white;
     text-align: center;
-    padding: 70px;
+    position: relative;
+    padding: 50px;
+    
 
 }
 
