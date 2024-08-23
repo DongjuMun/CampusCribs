@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CampusCribs</title>
+        <script src="index.js"></script>
         <link href='styleabout.css' rel = 'stylesheet'>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,8 +15,10 @@
         <div class = "header">
             <a href="./about.html">
                 <div>
-                    <img class="logo" src="./sources/images/cleaned_image.png" alt="imagen del logo"/>
-                </div>
+                    <a href= "index.html">
+                        <img class="logo" src="./sources/images/cleaned_image.png" alt="imagen del logo"/>
+                    </a>
+                 </div>
             </a>
             <a href="./account.html">
                 <div class="account">
@@ -33,6 +36,147 @@
                 </div>
             </a>
         </div>
+    </div>
+
+
+
+        <div class="search">
+            <div class="flex-container-qro">
+                <div class="city-bar">
+                    <div class="dropdown">
+                        <button class="filter-btn-cities">Queretaro...</button>
+                        <div class="dropdown-content-cities">
+                            <div class="dropdown-item"> Queretaro </div>
+                            <div class="dropdown-item">Ciudad de Mexico</div>
+                            <div class="dropdown-item">Monterrey</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-btn-container">
+                    <div class="dropdown">
+                        <button class="filter-btn">Universidades</button>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">Cualquiera</div>
+                            <div class="dropdown-item">Arkansas</div>
+                            <div class="dropdown-item">Anahuac</div>
+                            <div class="dropdown-item">Tec de Mty</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-btn-container">
+                    <div class="dropdown">
+                        <button class="filter-btn">Ordenar</button>
+                        <div class="dropdown-content">
+                            <div class="dropdown-item">mas relevante</div>
+                            <div class="dropdown-item">A - Z</div>
+                            <div class="dropdown-item">Z - A</div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class = "qro-img">
+            <div class = "qro-text">   
+                <h1>CIUDAD DE QUERETARO</h1>
+            </div> 
+        </div>   
+
+        <div class="flex-container-body">
+            <div class="property-list">
+                <div class="property-card">
+                    <div class="image-grid">
+                        <div class="image-item large">
+                            <img src="./sources/images/Biblioteca-universidad-queretaro-tec-monterrey.jpg" alt="Large property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/ItesmQro-1.jpg" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/ItesmQro-2.jpg" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/ItesmQro-3.JPG" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/ItesmQro-4.jpg" alt="Small property Image">
+                        </div>
+                    </div>
+                    <div class="property-details">
+                        <h2> Tecnologico de Monterrey Campus Queretaro </h2>
+                        <p class="location">Direccion: Prolongacion Tecnologico 801, San Pablo, 76130 Santiago de Querétaro, Qro. </p>
+                        <p clas="properties">Propiedades: 15+ propiedades</p>
+                        <div class="'price-range">
+                            <p>Precio: Cuarto desde $6,000 mxn </p>
+                            <button class="availability-btn">Ver Calificaciones</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!--
+                <div class="property-card">
+                    <div class="image-grid">
+                        <div class="image-item large">
+                            <img src="./sources/images/queretaro.png" alt="Large property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                    </div>
+                    <div class="property-details">
+                        <h2> Arkansas State University Campus Queretaro </h2>
+                        <p class="location"> Direccion: km 17.5 Estatal 100, 76270 Colón, Qro. </p>
+                        <p clas="properties">Propiedades: 10+ propiedades</p>
+                        <div class="'price-range">
+                            <p>Precio: Cuarto desde $7,000 mxn </p>
+                            <button class="availability-btn">Ver Calificaciones</button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="property-card">
+                    <div class="image-grid">
+                        <div class="image-item large">
+                            <img src="./sources/images/queretaro.png" alt="Large property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                        <div class="image-item small">
+                            <img src="./sources/images/queretaro.png" alt="Small property Image">
+                        </div>
+                    </div>
+                    <div class="property-details">
+                        <h2> Universidad Anahuac Campus Queretaro </h2>
+                        <p class="location">Direccion: Cto. Universidades I, Fracción 2, 76246 Zibatá, Qro. </p>
+                        <p clas="properties">Propiedades: 8+ propiedades</p>
+                        <div class="'price-range">
+                            <p>Precio: Cuarto desde $5,000 mxn </p>
+                            <button class="availability-btn">Ver Calificaciones</button>
+                        </div>
+                    </div>
+                </div>
+                -->
+
+            </div>
+        </div>
 
 
 </body>
@@ -44,9 +188,9 @@
             <img class="logo" src="./sources/images/cleaned_image_white.png" alt="imagen del logo"/>
         </div>
         <div class="info-links">
+            <a href='./index.html' target='_self' > Inicio </a>
             <a href='./about.html' target='_self'> Sobre nostros </a>
             <a href='./contact.html' target='_self'> Contacto </a> 
-            <a href='./index.html' target='_self' > Inicio </a>
         </div>
     </div>
 </footer>
